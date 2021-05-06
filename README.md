@@ -671,10 +671,7 @@ Multi-class (N>1) Metabolomic Study with dataset with Quality Control Samples (Q
 ```(r)
 normulticlassqcall(fileName = multi_qcs_data, SAalpha="Y", SAbeta="Y", SAgamma="Y")
 ```
-
-```{r figurea, echo = FALSE, fig.align='center', fig.cap ='NOREVA-All-Criteria-Output-Figures', out.width ="650px"}
-knitr::include_graphics ("./sampledata/NOREVA-Output-All-Criteria-Figures.png")
-```
+![Alt text1](https://raw.githubusercontent.com/idrblab/NOREVA/main/vignettes/sampledata/NOREVA-Output-All-Criteria-Figures.png)
 
 ```{r kable2}
 allrankings <- read.csv(file = "./sampledata/OUTPUT-NOREVA-Overall.Ranking.Data.csv",header = T)
