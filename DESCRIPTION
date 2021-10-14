@@ -1,0 +1,23 @@
+Package: NOREVA
+Type: Package
+Title: R Package for Systematic Optimization of Metabolomic Data
+        Processing
+Version: 2.1.1
+Author: Jianbo Fu
+Maintainer: Jianbo Fu <fujianbo@zju.edu.cn>
+Description: The NOREVA package not only enables the pre-processing and assessment of multi-class/time-series metabolomic data but also realize a high-throughput discovery of the well-performing pre-processing workflows.
+Depends: R (>= 3.5.0), rJava (>= 0.5-0)
+License: GPL
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.1.1
+Imports: DiffCorr, affy, vsn, DT, ropls, e1071, AUC, impute, eulerr,
+        MetNorm, ggsci, timecourse, multiROC, dummies, ggplot2, ggord,
+        limma, ggfortify, usethis, ggrepel, ggpubr, sampling, crmn,
+        ProteoMM, dplyr, statTarget, NormalizeMets, RcmdrMisc,
+        reshape2, foreach, data.table, parallel, doSNOW, tidyverse,
+        iterators
+Suggests: knitr, rmarkdown, testthat
+VignetteBuilder: knitr
+NeedsCompilation: yes
+Packaged: 2021-10-04 15:23:19 UTC; moumj
