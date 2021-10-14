@@ -14,7 +14,7 @@ The NOREVA package not only enables the pre-processing and assessment of multi-c
 - [Examples](#Examples)<br>
 
 ## Installation
-[![](https://img.shields.io/badge/source%20package-NOREVA.2.1.1.tar.gz-blue.svg)](https://github.com/idrblab/NOREVA/archive/.2.1.1.tar.gz)
+[![](https://img.shields.io/badge/source%20package-NOREVA.2.1.1.tar.gz-blue.svg)](https://github.com/idrblab/NOREVA/releases/download/NOREVA.2.1.1/NOREVA.2.1.1.tar.gz)
 
 ```R
 Method 1. Download the source package of NOREVA.2.1.1.tar.gz and install it
