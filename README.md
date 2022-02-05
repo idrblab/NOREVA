@@ -21,7 +21,7 @@ You can cite the `NOREVA` publication as follows:
 >
 > J. B. Fu, Y. Zhang, Y. X. Wang, H. N. Zhang, J. Liu, J. Tang, Q. X. Yang, H. C. Sun, W. Q. Qiu, Y. H. Ma, Z. R. Li, M. Y. Zheng, F. Zhu*.
 >
-> _Nature Protocols_ 17(1): 129-151 (2022). doi: [10.1038/s41596-021-00636-9](https://www.nature.com/articles/s41596-021-00636-9). PubMed ID: 34952956.
+> _Nature Protocols_. 17(1): 129-151 (2022). doi: [10.1038/s41596-021-00636-9](https://www.nature.com/articles/s41596-021-00636-9); PubMed ID: 34952956.
 
 
 ## Installation
