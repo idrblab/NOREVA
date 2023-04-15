@@ -1,0 +1,62 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: Optimization of metabolomic data processing using NOREVA
+message: >-
+  If you use this software, please cite it using the
+  metadata from this file.
+type: software
+authors:
+  - given-names: Jianbo
+    family-names: Fu
+    affiliation: Zhejiang University
+  - given-names: Ying
+    family-names: Zhang
+    affiliation: Zhejiang University
+  - given-names: Yunxia
+    family-names: Wang
+    affiliation: Zhejiang University
+  - given-names: Hongning
+    family-names: Zhang
+    affiliation: Zhejiang University
+    orcid: 'https://orcid.org/0000-0002-7818-7915'
+identifiers:
+  - type: doi
+    value: 10.1038/s41596-021-00636-9
+repository-code: 'https://github.com/idrblab/NOREVA'
+url: 'https://idrblab.org/noreva/'
+abstract: >-
+  A typical output of a metabolomic experiment is a peak
+  table corresponding to the intensity of measured signals.
+  Peak table processing, an essential procedure in
+  metabolomics, is characterized by its study dependency and
+  combinatorial diversity. While various methods and tools
+  have been developed to facilitate metabolomic data
+  processing, it is challenging to determine which
+  processing workflow will give good performance for a
+  specific metabolomic study. NOREVA, an out-of-the-box
+  protocol, was therefore developed to meet this challenge.
+  First, the peak table is subjected to many processing
+  workflows that consist of three to five defined
+  calculations in combinatorially determined sequences.
+  Second, the results of each workflow are judged against
+  objective performance criteria. Third, various benchmarks
+  are analyzed to highlight the uniqueness of this newly
+  developed protocol in (1) evaluating the processing
+  performance based on multiple criteria, (2) optimizing
+  data processing by scanning thousands of workflows, and
+  (3) allowing data processing for time-course and
+  multiclass metabolomics. This protocol is implemented in
+  an R package for convenient accessibility and to protect
+  users’ data privacy. Preliminary experience in R language
+  would facilitate the usage of this protocol, and the
+  execution time may vary from several minutes to a couple
+  of hours depending on the size of the analyzed data.
+keywords:
+  - metabolomic
+  - data process
+license: GPL-3.0
+commit: 7136b345eb40e18726d93757522473f7d56d01e9
+version: 2.1.1
+date-released: '2021-10-14'
